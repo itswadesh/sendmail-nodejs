@@ -1,0 +1,10 @@
+{
+  "name": "sendmail",
+  "version": "1.0.0",
+  "dependencies": {
+    "body-parser": "^1.14.2",
+    "express": "^4.13.4",
+    "nodemailer": "^2.1.0",
+    "nodemailer-sendgrid-transport": "^0.2.0"
+  }
+}
