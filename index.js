@@ -28,7 +28,7 @@ app.post('/sendmail', function(req, res){
 });
 
 // Start server
-var port = 8080, ip = "127.0.0.1";
-app.listen(port, ip, function() {
+var port = Number( process.env.PORT || 8080 ), ip = "127.0.0.1";
+app.listen(port, function() {
   console.log('Express server listening on http://localhost:%d', port);
 });
