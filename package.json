@@ -9,6 +9,6 @@
     "nodemailer-sendgrid-transport": "^0.2.0"
   },
   "scripts": {
-    "start": "node ."
+    "start": "npm start"
   }
 }
