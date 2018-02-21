@@ -1,11 +1,28 @@
 {
-  "name": "sendmail",
-  "version": "1.0.0",
+  "name": "arialshop-nx",
+  "version": "1.1.0",
+  "description": "A simple tutorial shows how to send email using nodejs",
+  "author": "Swadesh Behera <admin@codenx.com>",
+  "private": true,
+  "scripts": {
+    "dev": "node .",
+    "start": "node ."
+  },
   "main": "index.js",
   "dependencies": {
-    "body-parser": "^1.14.2",
-    "express": "^4.13.4",
-    "nodemailer": "^2.1.0",
-    "nodemailer-sendgrid-transport": "^0.2.0"
-  }
+    "@sendgrid/mail": "^6.2.1",
+    "body-parser": "^1.18.2",
+    "dotenv": "^5.0.0",
+    "express": "^4.16.2",
+    "sendgrid": "^5.2.3"
+  },
+  "engines": {
+    "node": "8.9.x",
+    "npm": "5.5.x"
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not ie <= 8"
+  ]
 }
