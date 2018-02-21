@@ -8,9 +8,11 @@ Complete tutorial can be found at http://angularcode.com/project-demo-send-mail-
 + Download or clone this repo
 + Open Command Prompt / Terminal and browse to the project folder
 + Replace the API_KEY at index.js or create a .env file at root of the project and put SENDGRID_API_KEY=YOUR API KEY
-+ Run the following command
-`npm i`
-`npm start`
++ Run the following commands
+```
+npm i
+npm start
+```
 
 This will start the application at port 8080 of localhost.
 Open your browser and point to <a href="http://localhost:8080">localhost:8080</a>
