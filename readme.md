@@ -1,6 +1,6 @@
 # Send email using NodeJS
 
-Complete tutorial can be found at http://angularcode.com/project-demo-send-mail-using-nodejs/
+Complete tutorial can be found at https://www.angularcode.com/simple-project-demonstrates-how-to-send-email-using-nodejs/
 ## Instructions
 
 + Install NodeJS (nodejs.org)
